@@ -1,1 +1,0 @@
-// rds-setup.sql - Placeholder content

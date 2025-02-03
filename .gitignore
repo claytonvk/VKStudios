@@ -1,2 +1,3 @@
-.envVKStudiosWeb/node_modules/
+.env
+VKStudiosWeb/node_modules/
 VKStudiosBackend/node_modules/

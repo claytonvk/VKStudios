@@ -1,0 +1,1 @@
+// galleryModel.js - Placeholder content

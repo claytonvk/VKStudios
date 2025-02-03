@@ -1,0 +1,1 @@
+// userModel.js - Placeholder content

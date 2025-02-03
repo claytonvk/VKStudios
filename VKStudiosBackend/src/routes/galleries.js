@@ -3,10 +3,9 @@ const router = express.Router();
 const db = require("../config/db");
 
 // Get all galleries for a user
-router.get("/:userId", async (req, res) => {
-  const { userId } = req.params;
+router.get("/", async (req, res) => {
   try {
-    const [galleries] = await db.execute("SELECT * FROM galleries WHERE user_id = ?", [userId]);
+    const [galleries] = await db.execute("SELECT * FROM galleries");
     res.json(galleries);
   } catch (err) {
     res.status(500).json({ error: err.message });
